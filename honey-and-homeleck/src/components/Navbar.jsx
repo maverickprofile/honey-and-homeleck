@@ -40,7 +40,7 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="flex justify-between items-center px-4 sm:px-6 md:px-12 lg:px-20 py-2">
         <span className="uppercase font-semibold tracking-wider text-xs sm:text-sm">
-          Honey and Homeleck
+          Honey and Hemlock
         </span>
 
         <div className="hidden md:flex items-center gap-3 text-xs sm:text-sm">
