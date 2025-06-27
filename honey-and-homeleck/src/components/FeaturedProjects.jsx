@@ -2,9 +2,8 @@ const FeaturedProjects = () => {
   const images = [
     "/Screenshot 2025-05-17 at 12.39.01 PM.png",
     "/Screenshot 2024-11-26 at 8.03.25 PM.png",
-    "/Screenshot 2025-05-17 at 12.39.01 PM.png",
-    "/Screenshot 2024-11-26 at 8.03.25 PM.png",
-    "/Screenshot 2025-05-17 at 12.39.01 PM.png",
+    "/Screenshot 2024-11-26 at 7.56.04 PM (1).png",
+    
   ]; // Replace with your real image paths
 
   return (
@@ -18,12 +17,12 @@ const FeaturedProjects = () => {
           </p>
         </div>
 
-        {/* Responsive Image Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {/* Responsive Image Grid with Landscape Aspect */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((src, index) => (
             <div
               key={index}
-              className="w-full aspect-[3/4] overflow-hidden rounded-md shadow-md group"
+              className="w-full aspect-[4/3] overflow-hidden rounded-md shadow-md group"
             >
               <img
                 src={src}
