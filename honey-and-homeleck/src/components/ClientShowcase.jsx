@@ -17,7 +17,7 @@ const ClientShowcase = () => {
               key={num}
               src="/Honey_and_hemlock_Black_logo__1_-removebg-preview (1).png"
               alt={`Client ${num}`}
-              className="h-20 sm:h-24 object-contain grayscale hover:grayscale-0 transition duration-300 ease-in-out"
+              className="h-20 sm:h-24 object-contain  transition duration-300 ease-in-out"
             />
           ))}
         </div>

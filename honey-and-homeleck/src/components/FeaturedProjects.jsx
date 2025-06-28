@@ -27,7 +27,7 @@ const FeaturedProjects = () => {
               <img
                 src={src}
                 alt={`Featured Project ${index + 1}`}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300 ease-in-out"
+                className="w-full h-full object-cover  group-hover:scale-105 transition-all duration-300 ease-in-out"
               />
             </div>
           ))}

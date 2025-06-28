@@ -16,7 +16,7 @@ const Footer = () => {
         <img
           src="/Honey and hemlock Black logo (1).png"
           alt="Logo"
-          className="mx-auto h-50 grayscale hover:grayscale-0 transition-all duration-500"
+          className="mx-auto h-50  transition-all duration-500"
         />
       </div>
 

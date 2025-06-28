@@ -7,7 +7,7 @@ import {
 
 const SkillsetSection = () => {
   return (
-    <section className="bg-black text-white px-4 sm:px-6 md:px-12 py-16">
+    <section className="bg-[#030303] text-white px-4 sm:px-6 md:px-12 py-16">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div>
